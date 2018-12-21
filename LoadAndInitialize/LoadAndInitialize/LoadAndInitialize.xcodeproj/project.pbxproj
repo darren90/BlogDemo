@@ -16,6 +16,10 @@
 		5D27416E21CC91DE0059CA43 /* LoadAndInitializeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D27416D21CC91DE0059CA43 /* LoadAndInitializeTests.m */; };
 		5D27417921CC91DE0059CA43 /* LoadAndInitializeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D27417821CC91DE0059CA43 /* LoadAndInitializeUITests.m */; };
 		5D27418821CC92410059CA43 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D27418721CC92410059CA43 /* People.m */; };
+		5D27418B21CC92750059CA43 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D27418A21CC92750059CA43 /* Student.m */; };
+		5D27418E21CC92AC0059CA43 /* LoadUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D27418D21CC92AC0059CA43 /* LoadUse.m */; };
+		5D27419121CC92C70059CA43 /* Student+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D27419021CC92C70059CA43 /* Student+Category.m */; };
+		5D27419721CC95170059CA43 /* People+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D27419621CC95170059CA43 /* People+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,14 @@
 		5D27417A21CC91DE0059CA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D27418621CC92410059CA43 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
 		5D27418721CC92410059CA43 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		5D27418921CC92750059CA43 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		5D27418A21CC92750059CA43 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		5D27418C21CC92AC0059CA43 /* LoadUse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadUse.h; sourceTree = "<group>"; };
+		5D27418D21CC92AC0059CA43 /* LoadUse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadUse.m; sourceTree = "<group>"; };
+		5D27418F21CC92C70059CA43 /* Student+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+Category.h"; sourceTree = "<group>"; };
+		5D27419021CC92C70059CA43 /* Student+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+Category.m"; sourceTree = "<group>"; };
+		5D27419521CC95170059CA43 /* People+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "People+Category.h"; sourceTree = "<group>"; };
+		5D27419621CC95170059CA43 /* People+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "People+Category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +119,17 @@
 				5D27415421CC91DD0059CA43 /* AppDelegate.h */,
 				5D27415521CC91DD0059CA43 /* AppDelegate.m */,
 				5D27415721CC91DD0059CA43 /* ViewController.h */,
+				5D27415821CC91DD0059CA43 /* ViewController.m */,
 				5D27418621CC92410059CA43 /* People.h */,
 				5D27418721CC92410059CA43 /* People.m */,
-				5D27415821CC91DD0059CA43 /* ViewController.m */,
+				5D27419521CC95170059CA43 /* People+Category.h */,
+				5D27419621CC95170059CA43 /* People+Category.m */,
+				5D27418921CC92750059CA43 /* Student.h */,
+				5D27418A21CC92750059CA43 /* Student.m */,
+				5D27418F21CC92C70059CA43 /* Student+Category.h */,
+				5D27419021CC92C70059CA43 /* Student+Category.m */,
+				5D27418C21CC92AC0059CA43 /* LoadUse.h */,
+				5D27418D21CC92AC0059CA43 /* LoadUse.m */,
 				5D27415A21CC91DD0059CA43 /* Main.storyboard */,
 				5D27415D21CC91DE0059CA43 /* Assets.xcassets */,
 				5D27415F21CC91DE0059CA43 /* LaunchScreen.storyboard */,
@@ -269,8 +289,12 @@
 			files = (
 				5D27418821CC92410059CA43 /* People.m in Sources */,
 				5D27415921CC91DD0059CA43 /* ViewController.m in Sources */,
+				5D27419721CC95170059CA43 /* People+Category.m in Sources */,
+				5D27418B21CC92750059CA43 /* Student.m in Sources */,
 				5D27416421CC91DE0059CA43 /* main.m in Sources */,
 				5D27415621CC91DD0059CA43 /* AppDelegate.m in Sources */,
+				5D27418E21CC92AC0059CA43 /* LoadUse.m in Sources */,
+				5D27419121CC92C70059CA43 /* Student+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
